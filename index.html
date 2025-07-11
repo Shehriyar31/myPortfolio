@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Shehriyar Parvez &hyphen; Portfolio</title>
+    <meta name="description" content="Modern frontend developer specializing in React and Node.js web technologies.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img.png" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="spinner"></div>
+            <div class="preloader-text">Loading Portfolio...</div>
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content" id="main-content">
+        <!-- Header -->
+        <header class="header">
+            <nav class="nav">
+                <div class="logo">
+                    <img src="img.png" alt="Muhammad Shehriyar Parvezz" class="logo-img">
+                    Muhammad Shehriyar Parvez
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <div class="status-dot"></div>
+                        Available for new projects
+                    </div>
+                    <h1 class="hero-title">
+                        <span id="typewriter-text"></span>
+                        <span class="cursor-blink">|</span>
+                    </h1>
+                    <p class="hero-description" id="hero-description" style="opacity: 0;">
+                        As a Full Stack Web Developer, I specialize in both frontend and backend development, creating
+                        complete, scalable, and responsive web applications. I bridge the gap between visual design and
+                        server-side logic, ensuring seamless performance, clean user interfaces, and secure data
+                        handling.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary"><i class="fas fa-eye"></i> View My Work</a>
+                        <a href="#contact" class="btn btn-secondary"><i class="fas fa-envelope"></i> Get In Touch</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="code-block">
+                        <div class="code-content">
+                            <div class="code-line"><span class="keyword">const</span> <span
+                                    class="function">developer</span> = {</div>
+                            <div class="code-line"> name: <span class="string">'Muhammad Shehriyar Parvezz'</span>,
+                            </div>
+                            <div class="code-line"> skills: [<span class="string">'Html'</span>, <span
+                                    class="string">'Css'</span> , <span class="string">Js</span> , <span
+                                    class="string">ReactJs</span> , <span class="string">NodeJs</span> ],</div>
+                            <div class="code-line"> passion: <span class="string">'Creating amazing UI/UX'</span>,</div>
+                            <div class="code-line">};</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">What I Do</h2>
+                    <p class="section-description">
+                        I'm passionate about creating digital experiences that are not only beautiful but also
+                        functional and accessible.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-react"></i></div>
+                        <h3 class="skill-title">Frontend Development</h3>
+                        <p class="skill-description">
+                            A Frontend Developer is responsible for designing and implementing the visual and
+                            interactive aspects of a website or application. They transform UI/UX designs into
+                            responsive, user-friendly web interfaces, ensuring seamless user experiences across all
+                            devices and browsers.
+                        </p>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Html</span>
+                            <span class="skill-tag">Css</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React.Js</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-globe"></i></div>
+                        <h3 class="skill-title">Backend Development</h3>
+                        <p class="skill-description">
+                            A Backend Developer is responsible for building and maintaining the server-side logic of web
+                            applications. This includes developing APIs, managing databases, handling server-side
+                            security, and ensuring fast and reliable data processing between the server, application,
+                            and users.
+                        </p>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Node.Js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-description">
+                        Here are some of my recent projects that showcase my skills and experience.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop&crop=entropy&auto=format&q=80"
+                                alt="SaaS Dashboard Interface" />
+                            <div class="project-overlay"><i class="fas fa-rocket"></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">SaaS Dashboard</h3>
+                            <p class="project-description">
+                                A comprehensive dashboard for managing business metrics with real-time data
+                                visualization and analytics.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Chart.js</span>
+                                <span class="tech-tag">Tailwind</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop&crop=entropy&auto=format&q=80"
+                                alt="E-Commerce Platform Interface" />
+                            <div class="project-overlay"><i class="fas fa-shopping-cart"></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">E-Commerce Platform</h3>
+                            <p class="project-description">
+                                Modern e-commerce solution with advanced filtering, cart management, and seamless
+                                checkout experience.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">Stripe</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Vercel</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop&crop=entropy&auto=format&q=80"
+                                alt="Task Management App Interface" />
+                            <div class="project-overlay"><i class="fas fa-mobile-alt"></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Task Management App</h3>
+                            <p class="project-description">
+                                Collaborative task management tool with real-time updates, team collaboration, and
+                                project tracking.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React Native</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Redux</span>
+                                <span class="tech-tag">Expo</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Let's Work Together</h2>
+                    <p class="section-description">
+                        Ready to bring your project to life? Let's discuss how we can create something amazing together.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Get in touch</h3>
+                        <p>I'm always interested in new opportunities and exciting projects. Whether you have a question
+                            or just want to say hi, feel free to reach out!</p>
+
+                        <div style="margin-top: 2rem;">
+                            <strong>📧 Email:</strong> muhammadshehriyar31@gmail.com<br><br>
+                            <strong>📱 Phone:</strong> +92 314 4532 559
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contact-form" action="https://formspree.io/f/myzjqjpp" method="POST">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-input form-textarea" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Portfolio">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                </div>
+                <p><i class="fas fa-copyright"></i> 2025 Muhammad Shehriyar Parvez. All rights reserved.</p>
+                <p class="footer-tagline">
+                    <i class="fas fa-code"></i> Crafted with passion and precision.
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
