@@ -1,0 +1,66 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="laptopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a4a4a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a2a2a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1a1a1a"/>
+  
+  <!-- Desk surface -->
+  <rect x="0" y="200" width="400" height="100" fill="#3a3a3a"/>
+  
+  <!-- Laptop base -->
+  <ellipse cx="200" cy="220" rx="120" ry="40" fill="url(#laptopGrad)"/>
+  
+  <!-- Laptop screen -->
+  <rect x="100" y="80" width="200" height="140" fill="#333" rx="8"/>
+  <rect x="110" y="90" width="180" height="120" fill="#000" rx="4"/>
+  
+  <!-- VS Code interface -->
+  <rect x="110" y="90" width="180" height="15" fill="#2d2d30"/>
+  <circle cx="120" cy="97" r="3" fill="#ff5f56"/>
+  <circle cx="130" cy="97" r="3" fill="#ffbd2e"/>
+  <circle cx="140" cy="97" r="3" fill="#27ca3f"/>
+  
+  <!-- File explorer -->
+  <rect x="110" y="105" width="40" height="105" fill="#252526"/>
+  <rect x="113" y="110" width="34" height="2" fill="#ff9800"/>
+  <rect x="113" y="115" width="25" height="2" fill="#ff6b00"/>
+  <rect x="113" y="120" width="30" height="2" fill="#ffb74d"/>
+  
+  <!-- Code editor -->
+  <rect x="150" y="105" width="140" height="105" fill="#1e1e1e"/>
+  <rect x="155" y="110" width="80" height="2" fill="#ff9800"/>
+  <rect x="155" y="115" width="60" height="2" fill="#569cd6"/>
+  <rect x="165" y="120" width="90" height="2" fill="#ce9178"/>
+  <rect x="155" y="125" width="70" height="2" fill="#4ec9b0"/>
+  <rect x="165" y="130" width="85" height="2" fill="#dcdcaa"/>
+  <rect x="155" y="135" width="50" height="2" fill="#ff9800"/>
+  <rect x="165" y="140" width="95" height="2" fill="#569cd6"/>
+  <rect x="155" y="145" width="75" height="2" fill="#ce9178"/>
+  <rect x="165" y="150" width="80" height="2" fill="#4ec9b0"/>
+  
+  <!-- Laptop keyboard -->
+  <rect x="120" y="225" width="160" height="25" fill="#2a2a2a" rx="2"/>
+  
+  <!-- Phone -->
+  <rect x="330" y="180" width="40" height="70" fill="#333" rx="8"/>
+  <rect x="335" y="185" width="30" height="50" fill="#000" rx="4"/>
+  <rect x="340" y="190" width="20" height="2" fill="#ff9800"/>
+  <rect x="340" y="195" width="15" height="2" fill="#ff6b00"/>
+  <rect x="340" y="200" width="18" height="2" fill="#ffb74d"/>
+  
+  <!-- Notebook -->
+  <rect x="50" y="170" width="60" height="80" fill="#f4f4f4" rx="2"/>
+  <rect x="55" y="175" width="50" height="2" fill="#ccc"/>
+  <rect x="55" y="180" width="45" height="2" fill="#ccc"/>
+  <rect x="55" y="185" width="40" height="2" fill="#ccc"/>
+  <rect x="55" y="190" width="48" height="2" fill="#ccc"/>
+  
+  <!-- Pen -->
+  <rect x="115" y="180" width="2" height="40" fill="#ff9800"/>
+  <circle cx="116" cy="180" r="2" fill="#ff6b00"/>
+</svg>

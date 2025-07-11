@@ -1,0 +1,39 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="profileGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9800;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b00;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a2a2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bgGrad)"/>
+  
+  <!-- Avatar Circle -->
+  <circle cx="200" cy="180" r="80" fill="url(#profileGrad)"/>
+  
+  <!-- Face -->
+  <circle cx="185" cy="165" r="3" fill="#fff"/>
+  <circle cx="215" cy="165" r="3" fill="#fff"/>
+  <path d="M 180 190 Q 200 200 220 190" stroke="#fff" stroke-width="2" fill="none"/>
+  
+  <!-- Body/Shoulders -->
+  <path d="M 140 260 Q 200 240 260 260 L 260 400 L 140 400 Z" fill="url(#profileGrad)"/>
+  
+  <!-- Coding Elements -->
+  <rect x="50" y="320" width="60" height="4" fill="#ff9800" opacity="0.6"/>
+  <rect x="50" y="330" width="40" height="4" fill="#ff6b00" opacity="0.6"/>
+  <rect x="50" y="340" width="70" height="4" fill="#ffb74d" opacity="0.6"/>
+  
+  <rect x="290" y="320" width="60" height="4" fill="#ff9800" opacity="0.6"/>
+  <rect x="310" y="330" width="40" height="4" fill="#ff6b00" opacity="0.6"/>
+  <rect x="280" y="340" width="70" height="4" fill="#ffb74d" opacity="0.6"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="80" cy="120" r="20" fill="none" stroke="#ff9800" stroke-width="2" opacity="0.3"/>
+  <circle cx="320" cy="120" r="25" fill="none" stroke="#ff6b00" stroke-width="2" opacity="0.3"/>
+</svg>

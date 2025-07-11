@@ -1,0 +1,77 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="proj4Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9800;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1a1a1a"/>
+  
+  <!-- Terminal window -->
+  <rect x="20" y="40" width="360" height="220" fill="#2d2d2d" rx="8"/>
+  
+  <!-- Terminal header -->
+  <rect x="20" y="40" width="360" height="25" fill="#3c3c3c" rx="8 8 0 0"/>
+  <circle cx="35" cy="52" r="3" fill="#ff5f56"/>
+  <circle cx="50" cy="52" r="3" fill="#ffbd2e"/>
+  <circle cx="65" cy="52" r="3" fill="#27ca3f"/>
+  <text x="180" y="58" font-family="monospace" font-size="10" fill="#fff">Social Media API - Terminal</text>
+  
+  <!-- API documentation -->
+  <rect x="30" y="75" width="340" height="175" fill="#1e1e1e"/>
+  
+  <!-- API endpoints -->
+  <text x="40" y="90" font-family="monospace" font-size="8" fill="#ff9800">POST /api/auth/login</text>
+  <text x="40" y="105" font-family="monospace" font-size="7" fill="#4ec9b0">Authentication endpoint for user login</text>
+  
+  <text x="40" y="120" font-family="monospace" font-size="8" fill="#ff6b00">GET /api/posts</text>
+  <text x="40" y="135" font-family="monospace" font-size="7" fill="#4ec9b0">Retrieve all posts with pagination</text>
+  
+  <text x="40" y="150" font-family="monospace" font-size="8" fill="#ffb74d">POST /api/posts</text>
+  <text x="40" y="165" font-family="monospace" font-size="7" fill="#4ec9b0">Create a new post</text>
+  
+  <text x="40" y="180" font-family="monospace" font-size="8" fill="#ff9800">GET /api/users/:id</text>
+  <text x="40" y="195" font-family="monospace" font-size="7" fill="#4ec9b0">Get user profile information</text>
+  
+  <text x="40" y="210" font-family="monospace" font-size="8" fill="#ff6b00">PUT /api/users/:id/follow</text>
+  <text x="40" y="225" font-family="monospace" font-size="7" fill="#4ec9b0">Follow/unfollow a user</text>
+  
+  <!-- Status indicators -->
+  <circle cx="250" cy="87" r="3" fill="#27ca3f"/>
+  <text x="260" y="91" font-family="monospace" font-size="6" fill="#27ca3f">200 OK</text>
+  
+  <circle cx="250" cy="117" r="3" fill="#27ca3f"/>
+  <text x="260" y="121" font-family="monospace" font-size="6" fill="#27ca3f">200 OK</text>
+  
+  <circle cx="250" cy="147" r="3" fill="#27ca3f"/>
+  <text x="260" y="151" font-family="monospace" font-size="6" fill="#27ca3f">201 Created</text>
+  
+  <circle cx="250" cy="177" r="3" fill="#27ca3f"/>
+  <text x="260" y="181" font-family="monospace" font-size="6" fill="#27ca3f">200 OK</text>
+  
+  <circle cx="250" cy="207" r="3" fill="#27ca3f"/>
+  <text x="260" y="211" font-family="monospace" font-size="6" fill="#27ca3f">200 OK</text>
+  
+  <!-- JSON response example -->
+  <rect x="280" y="75" width="85" height="100" fill="#252526" stroke="#ff9800"/>
+  <text x="285" y="90" font-family="monospace" font-size="6" fill="#ff9800">JSON Response:</text>
+  <text x="285" y="100" font-family="monospace" font-size="5" fill="#ce9178">{</text>
+  <text x="290" y="108" font-family="monospace" font-size="5" fill="#9cdcfe">"id": 123,</text>
+  <text x="290" y="116" font-family="monospace" font-size="5" fill="#9cdcfe">"user": "john",</text>
+  <text x="290" y="124" font-family="monospace" font-size="5" fill="#9cdcfe">"content":</text>
+  <text x="290" y="132" font-family="monospace" font-size="5" fill="#ce9178">"Hello API!",</text>
+  <text x="290" y="140" font-family="monospace" font-size="5" fill="#9cdcfe">"likes": 42,</text>
+  <text x="290" y="148" font-family="monospace" font-size="5" fill="#9cdcfe">"timestamp":</text>
+  <text x="290" y="156" font-family="monospace" font-size="5" fill="#ce9178">"2024-01-15"</text>
+  <text x="285" y="164" font-family="monospace" font-size="5" fill="#ce9178">}</text>
+  
+  <!-- Performance metrics -->
+  <rect x="280" y="185" width="85" height="55" fill="#252526" stroke="#4caf50"/>
+  <text x="285" y="200" font-family="monospace" font-size="6" fill="#4caf50">Performance:</text>
+  <text x="285" y="210" font-family="monospace" font-size="5" fill="#fff">Response: 45ms</text>
+  <text x="285" y="218" font-family="monospace" font-size="5" fill="#fff">Uptime: 99.9%</text>
+  <text x="285" y="226" font-family="monospace" font-size="5" fill="#fff">Rate Limit: 1000/h</text>
+  <text x="285" y="234" font-family="monospace" font-size="5" fill="#fff">Active Users: 5.2k</text>
+</svg>

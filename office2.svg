@@ -1,0 +1,100 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="office2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9800;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#ff6b00;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f8f8"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="220" width="400" height="80" fill="#e0e0e0"/>
+  
+  <!-- Modern desk -->
+  <rect x="100" y="180" width="200" height="40" fill="#fff" stroke="#ddd"/>
+  <rect x="95" y="215" width="8" height="20" fill="#ccc"/>
+  <rect x="297" y="215" width="8" height="20" fill="#ccc"/>
+  
+  <!-- Laptop -->
+  <rect x="150" y="160" width="100" height="20" fill="#333" rx="8"/>
+  <rect x="155" y="130" width="90" height="60" fill="#2a2a2a" rx="5"/>
+  <rect x="160" y="135" width="80" height="50" fill="#000" rx="3"/>
+  
+  <!-- Laptop screen content -->
+  <rect x="165" y="140" width="70" height="8" fill="#ff9800"/>
+  <text x="170" y="150" font-family="Arial" font-size="6" fill="#fff">Visual Studio Code</text>
+  <rect x="165" y="155" width="15" height="25" fill="#252526"/>
+  <rect x="185" y="155" width="45" height="25" fill="#1e1e1e"/>
+  
+  <!-- Code lines -->
+  <rect x="190" y="160" width="30" height="1" fill="#ff9800"/>
+  <rect x="190" y="163" width="25" height="1" fill="#569cd6"/>
+  <rect x="190" y="166" width="35" height="1" fill="#ce9178"/>
+  <rect x="190" y="169" width="20" height="1" fill="#4ec9b0"/>
+  <rect x="190" y="172" width="40" height="1" fill="#dcdcaa"/>
+  
+  <!-- External monitor -->
+  <rect x="270" y="100" width="100" height="80" fill="#333" rx="5"/>
+  <rect x="275" y="105" width="90" height="70" fill="#000" rx="3"/>
+  
+  <!-- Monitor content - Design -->
+  <rect x="280" y="110" width="80" height="40" fill="url(#office2Grad)"/>
+  <rect x="285" y="115" width="20" height="15" fill="#fff" rx="2"/>
+  <rect x="310" y="115" width="45" height="6" fill="#fff" rx="1"/>
+  <rect x="310" y="125" width="35" height="4" fill="#ccc" rx="1"/>
+  <circle cx="345" cy="140" r="8" fill="#ff6b00"/>
+  <rect x="280" y="155" width="80" height="15" fill="#333"/>
+  
+  <!-- Monitor stand -->
+  <rect x="315" y="180" width="10" height="15" fill="#666"/>
+  <rect x="300" y="195" width="40" height="6" fill="#555"/>
+  
+  <!-- Wireless keyboard -->
+  <rect x="280" y="205" width="80" height="15" fill="#f5f5f5" rx="3" stroke="#ddd"/>
+  
+  <!-- Wireless mouse -->
+  <ellipse cx="380" cy="212" rx="8" ry="12" fill="#fff" stroke="#ddd"/>
+  
+  <!-- Tablet with stylus -->
+  <rect x="120" y="190" width="60" height="40" fill="#333" rx="5"/>
+  <rect x="125" y="195" width="50" height="30" fill="#000" rx="3"/>
+  <rect x="130" y="200" width="20" height="20" fill="#ff9800" opacity="0.3"/>
+  <rect x="155" y="205" width="15" height="2" fill="#ff6b00"/>
+  <rect x="200" y="190" width="2" height="40" fill="#666"/>
+  
+  <!-- Coffee mug -->
+  <ellipse cx="350" cy="188" rx="8" ry="6" fill="#8B4513"/>
+  <rect x="342" y="182" width="16" height="12" fill="#D2691E"/>
+  <path d="M 358 185 Q 364 185 364 190 Q 364 195 358 195" stroke="#8B4513" stroke-width="1" fill="none"/>
+  
+  <!-- Desk organizer -->
+  <rect x="320" y="170" width="25" height="20" fill="#ddd" stroke="#ccc"/>
+  <rect x="325" y="160" width="3" height="15" fill="#ff6b00"/>
+  <rect x="330" y="165" width="3" height="10" fill="#4caf50"/>
+  <rect x="335" y="162" width="3" height="13" fill="#2196f3"/>
+  <rect x="340" y="158" width="3" height="17" fill="#ff9800"/>
+  
+  <!-- Modern chair -->
+  <rect x="190" y="230" width="30" height="40" fill="#333"/>
+  <ellipse cx="205" cy="270" rx="20" ry="10" fill="#666"/>
+  <rect x="200" y="255" width="10" height="20" fill="#444"/>
+  <circle cx="205" cy="250" r="6" fill="#333"/>
+  
+  <!-- Wall decoration - Abstract art -->
+  <rect x="50" y="50" width="60" height="40" fill="#fff" stroke="#ccc"/>
+  <rect x="55" y="55" width="15" height="30" fill="#ff9800"/>
+  <rect x="75" y="55" width="15" height="30" fill="#ff6b00"/>
+  <rect x="95" y="55" width="10" height="30" fill="#ffb74d"/>
+  
+  <!-- Floating shelves -->
+  <rect x="20" y="120" width="60" height="4" fill="#fff" stroke="#ddd"/>
+  <rect x="25" y="100" width="8" height="18" fill="#4caf50"/>
+  <rect x="35" y="105" width="8" height="13" fill="#2196f3"/>
+  <rect x="45" y="108" width="8" height="10" fill="#ff6b00"/>
+  <rect x="55" y="102" width="8" height="16" fill="#9c27b0"/>
+  
+  <!-- Natural light from window -->
+  <rect x="0" y="30" width="30" height="120" fill="url(#office2Grad)" opacity="0.8"/>
+</svg>

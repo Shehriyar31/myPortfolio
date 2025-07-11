@@ -1,0 +1,65 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="proj2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9800;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- App window -->
+  <rect x="20" y="40" width="360" height="220" fill="#fff" rx="8" stroke="#e0e0e0"/>
+  
+  <!-- Header -->
+  <rect x="20" y="40" width="360" height="40" fill="url(#proj2Grad)" rx="8 8 0 0"/>
+  <text x="30" y="63" font-family="Arial" font-size="14" fill="#fff" font-weight="bold">TaskFlow - Project Management</text>
+  
+  <!-- Sidebar -->
+  <rect x="30" y="80" width="80" height="170" fill="#f5f5f5" stroke="#eee"/>
+  <text x="35" y="95" font-family="Arial" font-size="9" fill="#333" font-weight="bold">Projects</text>
+  <rect x="35" y="100" width="70" height="15" fill="#ff9800" opacity="0.3" rx="2"/>
+  <text x="38" y="110" font-family="Arial" font-size="8" fill="#333">Website Redesign</text>
+  <rect x="35" y="120" width="70" height="15" fill="#ff6b00" opacity="0.3" rx="2"/>
+  <text x="38" y="130" font-family="Arial" font-size="8" fill="#333">Mobile App</text>
+  <rect x="35" y="140" width="70" height="15" fill="#ffb74d" opacity="0.3" rx="2"/>
+  <text x="38" y="150" font-family="Arial" font-size="8" fill="#333">API Development</text>
+  
+  <!-- Kanban board -->
+  <rect x="120" y="80" width="250" height="170" fill="#fff"/>
+  
+  <!-- To Do column -->
+  <rect x="130" y="90" width="70" height="150" fill="#f8f9fa" stroke="#eee"/>
+  <text x="135" y="105" font-family="Arial" font-size="9" fill="#333" font-weight="bold">To Do</text>
+  <rect x="135" y="110" width="60" height="25" fill="#fff" stroke="#ddd" rx="3"/>
+  <text x="138" y="120" font-family="Arial" font-size="7" fill="#333">Design Homepage</text>
+  <text x="138" y="128" font-family="Arial" font-size="6" fill="#666">Due: Today</text>
+  
+  <rect x="135" y="140" width="60" height="25" fill="#fff" stroke="#ddd" rx="3"/>
+  <text x="138" y="150" font-family="Arial" font-size="7" fill="#333">Setup Database</text>
+  <text x="138" y="158" font-family="Arial" font-size="6" fill="#666">Due: Tomorrow</text>
+  
+  <!-- In Progress column -->
+  <rect x="210" y="90" width="70" height="150" fill="#fff3e0" stroke="#ff9800"/>
+  <text x="215" y="105" font-family="Arial" font-size="9" fill="#333" font-weight="bold">In Progress</text>
+  <rect x="215" y="110" width="60" height="25" fill="#fff" stroke="#ff9800" rx="3"/>
+  <text x="218" y="120" font-family="Arial" font-size="7" fill="#333">User Authentication</text>
+  <text x="218" y="128" font-family="Arial" font-size="6" fill="#ff6b00">John Doe</text>
+  
+  <!-- Done column -->
+  <rect x="290" y="90" width="70" height="150" fill="#e8f5e8" stroke="#4caf50"/>
+  <text x="295" y="105" font-family="Arial" font-size="9" fill="#333" font-weight="bold">Done</text>
+  <rect x="295" y="110" width="60" height="25" fill="#fff" stroke="#4caf50" rx="3"/>
+  <text x="298" y="120" font-family="Arial" font-size="7" fill="#333">Project Setup</text>
+  <text x="298" y="128" font-family="Arial" font-size="6" fill="#4caf50">✓ Completed</text>
+  
+  <rect x="295" y="140" width="60" height="25" fill="#fff" stroke="#4caf50" rx="3"/>
+  <text x="298" y="150" font-family="Arial" font-size="7" fill="#333">Requirements</text>
+  <text x="298" y="158" font-family="Arial" font-size="6" fill="#4caf50">✓ Completed</text>
+  
+  <!-- Progress indicator -->
+  <rect x="120" y="260" width="200" height="8" fill="#e0e0e0" rx="4"/>
+  <rect x="120" y="260" width="120" height="8" fill="url(#proj2Grad)" rx="4"/>
+  <text x="330" y="267" font-family="Arial" font-size="8" fill="#666">60% Complete</text>
+</svg>
